@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+	<include android:id="@+id/mTopLayout" layout="@layout/top" />
+	<include android:id="@+id/mBottomLayout"  
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/bottom_height"
+	    android:layout_alignParentBottom="true"
+	    layout="@layout/bottom" />
+	<include android:id="@+id/mBodyLayout" layout="@layout/body" 
+	    android:layout_above="@id/mBottomLayout" 
+	    android:layout_below="@id/mTopLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"/>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">解忧</string>
+    <string name="write_message">写信</string>
+	<string name="box">信箱</string>
+	<string name="inbox">收件箱</string>
+	<string name="drafts">草稿箱</string>
+	<string name="sended">已发送</string>
+	<string name="deleted">已删除</string>
+	<string name="send_hint">我有话说</string>
+	<string name="feedback">反馈</string>
+	<string name="send">发送</string>
+	<string name="send_failed">发送失败</string>
+	<string name="record">按住 说话</string>
+	<string name="unrecord">松开  结束</string>
+</resources>
